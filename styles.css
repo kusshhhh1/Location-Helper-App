@@ -1,0 +1,81 @@
+body {
+  background: linear-gradient(135deg, #e0f7fa, #f1f8e9);
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.leaf-background {
+  background-image: url('https://www.transparenttextures.com/patterns/green-fibers.png');
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+header {
+  background: linear-gradient(90deg, #43cea2, #185a9d);
+  padding: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  z-index: 1;
+  position: relative;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.controls {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.button-container {
+  width: 90%;
+  max-width: 450px;
+}
+
+button {
+  background-color: #66bb6a;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 16px 28px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 100%;
+  box-shadow: 0 8px 16px rgba(102, 187, 106, 0.3);
+  transition: all 0.3s ease;
+  backdrop-filter: blur(4px);
+}
+
+button:hover {
+  background-color: #a5d6a7;
+  color: #1b5e20;
+  transform: scale(1.05);
+}
+
+iframe {
+  width: 90%;
+  max-width: 800px;
+  border-radius: 15px;
+  border: 3px solid #43a047;
+  margin: 40px auto 60px auto;
+  display: block;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  backdrop-filter: blur(4px);
+}
